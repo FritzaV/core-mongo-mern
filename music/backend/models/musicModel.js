@@ -15,7 +15,7 @@ const musicSchema = new mongoose.Schema({
   },
   anioLanzamiento: {
     type: Number,
-    require: true,
+    //require: true,
     min: [1000, "Debe tener 4 dígitos"],
     max: [9999, "Debe tener 4 dígitos"]
   },
@@ -28,7 +28,8 @@ const musicSchema = new mongoose.Schema({
       },
       message: "El genero no puede estar vacío"
     },
-  }
+  },
+  playlistName: { type: String, }
 },
   {
     timestamps: true

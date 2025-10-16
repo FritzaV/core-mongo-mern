@@ -1,0 +1,7 @@
+.playlists-wrapper {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
