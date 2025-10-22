@@ -1,0 +1,13 @@
+.edit-song-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.edit-song-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
